@@ -10,6 +10,7 @@
 * [#6436](https://github.com/rubocop-hq/rubocop/pull/6436): Fix exit status code to be 130 when rubocop is interrupted. ([@deivid-rodriguez][])
 * [#6443](https://github.com/rubocop-hq/rubocop/pull/6443): Fix an incorrect autocorrect for `Style/BracesAroundHashParameters` when the opening brace is bofore the first hash element at same line. ([@koic][])
 * [#6445](https://github.com/rubocop-hq/rubocop/pull/6445): Treat `yield` and `super` like regular method calls in `Style/AlignHash`. ([@mvz][])
+* Fix and improve `LineLength` cop for tab-indented code. ([@AlexWayfer][])
 
 ## 0.60.0 (2018-10-26)
 
@@ -30,7 +31,6 @@
 * [#6340](https://github.com/rubocop-hq/rubocop/pull/6340): Fix an error for `Rails/ReversibleMigration` when block argument is empty. ([@koic][])
 * [#6274](https://github.com/rubocop-hq/rubocop/issues/6274): Fix "[Corrected]" message being displayed even when nothing has been corrected. ([@jekuta][])
 * [#6380](https://github.com/rubocop-hq/rubocop/pull/6380): Allow use of a hyphen-separated frozen string literal in Emacs style magic comment. ([@y-yagi][])
-* Fix and improve `LineLength` cop for tab-indented code. ([@AlexWayfer][])
 
 ### Changes
 
